@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+    font-family: "Nunito";
+    background-color: #eee;
+}
+
+.App {
+    width: 60%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+h2,
+h1 {
+    text-align: center;
+}
+
+#books-list li {
+    background-color: #ad1457;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    display: inline-flex;
+    margin: 10px;
+    list-style: none;
+    border: 1px solid #ad1457;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #ad1457;
+}
+
+#add-book {
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 40px;
+    bottom: 0;
+}
+
+i {
+    padding: 2px 5px 5px 10px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#add-button {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ad1457;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+
+#book-details {
+    color: white;
+    position: fixed;
+    background-color: #ad1457;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 40vw;
+    height: 100vh;
+}
+
+#book-nga h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+#book-nga {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#more {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#more li {
+    font-size: 25px;
+    padding: 10px;
+}
